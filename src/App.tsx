@@ -140,7 +140,7 @@ const App = () => {
           !hasError && isLoading && <div className="loader"></div>
         }
         {
-          hasError  && <div className="error">Out of posts</div>
+          hasError  && <div className="error">Постов больше нет</div>
         }
         <div id="background-pattern"/>
       </div>
